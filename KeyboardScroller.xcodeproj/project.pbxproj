@@ -13,6 +13,7 @@
 		A7DD322E1FCE591100DFF10F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DD322D1FCE591100DFF10F /* Assets.xcassets */; };
 		A7DD32311FCE591100DFF10F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DD322F1FCE591100DFF10F /* LaunchScreen.storyboard */; };
 		A7DD32341FCE591100DFF10F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DD32331FCE591100DFF10F /* main.m */; };
+		A7DD323C1FCE595E00DFF10F /* KeyboardScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DD323B1FCE595E00DFF10F /* KeyboardScroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A7DD32301FCE591100DFF10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7DD32321FCE591100DFF10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7DD32331FCE591100DFF10F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7DD323A1FCE595E00DFF10F /* KeyboardScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardScroller.h; sourceTree = "<group>"; };
+		A7DD323B1FCE595E00DFF10F /* KeyboardScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardScroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A7DD32251FCE591100DFF10F /* AppDelegate.m */,
 				A7DD32271FCE591100DFF10F /* ViewController.h */,
 				A7DD32281FCE591100DFF10F /* ViewController.m */,
+				A7DD323A1FCE595E00DFF10F /* KeyboardScroller.h */,
+				A7DD323B1FCE595E00DFF10F /* KeyboardScroller.m */,
 				A7DD322A1FCE591100DFF10F /* Main.storyboard */,
 				A7DD322D1FCE591100DFF10F /* Assets.xcassets */,
 				A7DD322F1FCE591100DFF10F /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7DD323C1FCE595E00DFF10F /* KeyboardScroller.m in Sources */,
 				A7DD32291FCE591100DFF10F /* ViewController.m in Sources */,
 				A7DD32341FCE591100DFF10F /* main.m in Sources */,
 				A7DD32261FCE591100DFF10F /* AppDelegate.m in Sources */,

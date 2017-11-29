@@ -14,6 +14,12 @@
 
 @implementation ViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    // just set a default size for this demo. In reality it should be set properly
+    self.scrollView.contentSize = self.contentView.frame.size;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
